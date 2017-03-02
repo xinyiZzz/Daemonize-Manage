@@ -1,19 +1,19 @@
 ## March 1 2016 11:14 AM
 
-# Daemonize_Manage
+# Daemonize-Manage
 Daemonize management base class, providing daemon creation and termination, logging, child process management/守护进程管理基类，提供守护进程创建及终止、日志记录、子进程管理
 
 * * *
 
 
-## system function/系统功能
+## function/系统功能
 
 创建守护进程执行指定程序
 在当前目录创建/log目录存储日志
 对守护进程启动的子进程管理，避免出现僵尸进程
 
 
-## Use examples/使用范例
+## examples/使用范例
 
 - 接口：
     start_operation():    守护进程启动后运行，需重写为守护进程启动后执行的程序
